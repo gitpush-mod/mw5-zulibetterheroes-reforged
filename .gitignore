@@ -1,0 +1,9 @@
+**/Saved/
+**/Intermediate/
+**/Build/
+**/DerivedDataCache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

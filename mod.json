@@ -1,0 +1,20 @@
+{
+	"displayName": "ZuluBetterHeroes-Reforged",
+	"version": "1.0",
+	"buildNumber": 2,
+	"description": "Adds a Hero Collector Trait Tree to the Cantina. Complete any Mech Collector mission to unlock it, then use its rewards to boost hero mechs (and any other mech, if you insist) with heroic-tier structure, armor, speed, damage, weapon speed, heat capacity, cooling, and heat generation bonuses. Plus two active traits — Reinforced Arms and Reinforced Legs — for any mech.\r\n\r\nThis is a community port of Kurst's original ZuluBetterHeroes (Nexus #535), rebuilt to work with the current version of MechWarrior 5: Mercenaries after DLC 10 broke the original. Same design, same balance, same traits — just re-cooked for the modern game.\r\n\r\nOriginal by Kurst: https://www.nexusmods.com/mechwarrior5mercenaries/mods/535/\r\n\r\nPort by Godimas.",
+	"author": "Kurst and Godimas",
+	"authorURL": "",
+	"defaultLoadOrder": 0,
+	"gameVersion": "1.14.69",
+	"manifest": [
+		"/Game/Campaign/Errands/MechCollector/MechCollectorRewards_Beginner.uasset",
+		"/Game/Campaign/Errands/MechCollector/MechCollectorRewards_Brutal.uasset",
+		"/Game/Campaign/Errands/MechCollector/MechCollectorRewards_Easy.uasset",
+		"/Game/Campaign/Errands/MechCollector/MechCollectorRewards_Hard.uasset",
+		"/Game/Campaign/Errands/MechCollector/MechCollectorRewards_Medium.uasset"
+	],
+	"steamPublishedFileId": 0,
+	"steamLastSubmittedBuildNumber": 0,
+	"steamModVisibility": "Public"
+}
