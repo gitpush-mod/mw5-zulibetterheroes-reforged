@@ -1,9 +1,16 @@
+# UE4 build artefacts — regenerable, GitHub 100 MB file cap blocks them
 **/Saved/
 **/Intermediate/
 **/Build/
 **/DerivedDataCache/
+
+# OS / editor cruft
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 *.swp
+*~
+
+# Local working notes (untracked by convention)
+*NOTES*.md
