@@ -57,6 +57,14 @@ file that UE4 cooking produces.
 - **No vanilla-asset copies** — this is critical for anything visual/audio. All art and audio in the mod is original or open-licensed.
 - **Check `%LOCALAPPDATA%\MW5Mercs\Saved\Logs\`** — any errors mention the mod? Quote them in the ticket.
 
+## Publishing + feedback flow
+
+Wired into the [TCS Discord bot](https://github.com/The-Canadian-Space/tcs-forum-watcher). Full flow (what mirrors when, tag map, gotchas): [`mods/AGENTS.md` → Publishing + feedback flow](../AGENTS.md) or the wiki at [`discord/release-and-feedback-flow`](https://docs.thecanadian.space/discord/release-and-feedback-flow/).
+
+- Issues labelled `bug` or `suggestion` → `🐛-mod-feedback` (auto).
+- GitHub releases → persistent thread in `📦-mod-updates`. **Public.**
+- **Releases are user-driven.** Do NOT run `gh release create` or push a release tag autonomously. If the work looks releasable, **ask** — describe the release notes and let Chris decide.
+
 ## MUST NOT
 
 - Modify vanilla MW5 game files
